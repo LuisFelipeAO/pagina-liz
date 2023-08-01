@@ -1,0 +1,34 @@
+#title{ 
+    text-align: center;
+    font-size: 74px;
+    width: 100%;
+}
+section{
+    margin-left: 30%;
+}
+button{
+    text-align: center;
+    position: relative;
+    margin: 5em;
+    border-radius: 21px;
+    padding: 15px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(27, 71, 110);
+    font-style: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    color: white;
+    background-color: rgb(108, 177, 108);
+    scale: 115%;
+    transition: .01s;
+}
+.movimiento{
+    transition: left 0.3s ease-out;
+}
+.movimiento:hover {
+    left: 100px;
+  }
